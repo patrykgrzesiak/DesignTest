@@ -5,7 +5,7 @@
     (no_connects 1)
     (area 103.556999 69.520999 140.283001 100.659001)
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 76)
     (zones 0)
     (modules 6)
@@ -628,6 +628,9 @@
     )
   )
 
+  (gr_text "Development !" (at 121.92 103.124) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 103.632 100.584) (end 103.632 69.596) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 140.208 100.584) (end 103.632 100.584) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 140.208 69.596) (end 140.208 100.584) (angle 90) (layer Edge.Cuts) (width 0.15))
